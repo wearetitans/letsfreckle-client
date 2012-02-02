@@ -7,7 +7,7 @@ module LetsFreckle
     end
 
     def self.create(options = {})
-      post('projects', options.merge(:root => :project)
+      post('projects', options.merge(:root => :project))
     end
 
 
